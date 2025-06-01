@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -13,6 +13,7 @@
   /* Colors */
   --color-primary-purple: #333366;
   --color-primary-red: #e71921;
+  --color-primary-blue: #a2c5ee;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,7 +24,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--color-primary-blue);
   color: var(--foreground);
   font-family: var(--font-poppins);
 }

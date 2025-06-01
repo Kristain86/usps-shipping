@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "USPS Shipping",
-  description: "Print USPS shipping labels with ease",
+  title: "FedEx Shipping",
+  description: "Print FedEx shipping labels with ease",
 };
 
 export default function RootLayout({
