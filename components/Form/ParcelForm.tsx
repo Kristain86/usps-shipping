@@ -54,7 +54,7 @@ const ParcelForm = ({ register, errors }: ParcelFormProps) => {
             <label className='block text-sm font-medium text-gray-700'>Box Type</label>
             <select
               {...register('parcel.box_type')}
-              className='mt-1 px-2.5 py-2 block w-full rounded-md border-gray-300 border focus:border-primary-purple focus:ring-primary-purple'>
+              className='mt-1 px-1.5 py-2 block w-full rounded-md border-gray-300 border focus:border-primary-purple focus:ring-primary-purple'>
               <option value='custom'>Custom</option>
               <option value='standard'>Standard</option>
             </select>
