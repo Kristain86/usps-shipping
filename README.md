@@ -54,9 +54,9 @@ SHIPPER_ACCOUNT_ID={YOUR_SHIPPER_ACCOUNT_ID}
 
 Initially, the project was intended to use [EasyPost](https://app.easypost.com/) for shipment and label generation. However, their platform did not allow API key generation during setup, and despite reaching out to their support team, no response was received.
 
-As a result, we integrated [AfterShip's Tracking API](https://www.aftership.com/docs/tracking/quickstart/api-quick-start) instead. It provides similar shipment tracking and label generation features and was easy to set up and use as an alternative.
+As a result, I integrated [AfterShip's Tracking API](https://www.aftership.com/docs/tracking/quickstart/api-quick-start) instead. It provides similar shipment tracking and label generation features and was easy to set up and use as an alternative.
 
-When using AfterShip, we opted for **FedEx** instead of **USPS**, as USPS was not fully functional or accessible through their test environment at the time.
+When using AfterShip, I opted for **FedEx** instead of **USPS**, as USPS was not fully functional or accessible through their test environment at the time.
 
 
 
