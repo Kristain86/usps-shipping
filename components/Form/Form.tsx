@@ -21,7 +21,7 @@ const formSchema = z.object({
 export type FormData = z.infer<typeof formSchema>;
 
 const Form = () => {
-  const [currentStep, setCurrentStep] = useState(3);
+  const [currentStep, setCurrentStep] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [labelUrl, setLabelUrl] = useState<string | null>(null);
