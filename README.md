@@ -69,6 +69,7 @@ When using AfterShip, I opted for **FedEx** instead of **USPS**, as USPS was not
 
 ## 🚧 WHAT'S NEXT
 
+- The design in the success page.
 - I would like to create a custom `<Button />` component similar to the other reusable components in the project.
 - The mobile version could use some further refinements and polishing.
 - In general, the codebase could benefit from a bit more cleanup and additional componentization.
