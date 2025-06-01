@@ -1,5 +1,6 @@
 import { cn } from '@/utils/cn';
 import { forwardRef } from 'react';
+import Label from '../Label/Label';
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   label: string;
@@ -17,13 +18,10 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
     return (
       <div className={cn('flex flex-col gap-1.5', className)}>
-        <label 
-          htmlFor={inputId} 
-          className='block text-sm font-medium text-gray-900'
-        >
-          {label}
-          {required && <span className="text-red-500 ml-1" aria-hidden="true">*</span>}
-        </label>
+        <div className="flex items-center gap-1">
+          <Label label={label} htmlFor={inputId} />
+          {required && <span className="text-red-500" aria-hidden="true">*</span>}
+        </div>
         <input
           id={inputId}
           disabled={disabled}
