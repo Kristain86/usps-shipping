@@ -16,13 +16,6 @@
   --color-primary-blue: #a2c5ee;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--color-primary-blue);
   color: var(--foreground);
