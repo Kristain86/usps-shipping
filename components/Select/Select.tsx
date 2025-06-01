@@ -71,7 +71,7 @@ const Select = <T extends FieldValues>({ label, name, register, options, error, 
     <div className="relative">
       <select
         {...register(name)}
-        className="appearance-none px-2.5 py-2 pr-10 block w-full rounded-md border border-gray-300 focus:border-primary-purple focus:ring-primary-purple"
+        className="appearance-none px-2.5 py-2 pr-10 block w-full rounded-md border border-gray-300 focus:border-primary-purple focus:ring-primary-purple cursor-pointer"
       >
         {placeholder && <option value="">{placeholder}</option>}
         {options.map((option) => (
